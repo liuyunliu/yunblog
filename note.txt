@@ -1,0 +1,12 @@
+running notes:
+
+on PC:
+python -m venv venv
+venv\Scripts\activate
+
+then create files/folders
+
+then run:
+
+set FLASK_APP=hello.py
+flask run
