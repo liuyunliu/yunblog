@@ -10,3 +10,6 @@ then run:
 
 set FLASK_APP=hello.py
 flask run
+
+>pip install flask-sqlalchemy
+>pip install flask-migrate
