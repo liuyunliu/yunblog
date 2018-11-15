@@ -1,0 +1,6 @@
+SQLAlchemy>=1.2.14
+flask-migrate
+werkzeug
+flask_wtf
+flask-sqlalchemy
+flask_login
