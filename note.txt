@@ -4,11 +4,13 @@ on PC:
 python -m venv venv
 venv\Scripts\activate
 
+pip install -r requirements.txt
+
 then create files/folders
 
 then run:
 
-set FLASK_APP=hello.py
+set FLASK_APP=microblog.py
 flask run
 
 (venv) $ export FLASK_DEBUG=1
@@ -23,3 +25,10 @@ database:
 flask db init
 flask db migrate -m "users table"
 flask db upgrade
+
+
+email debugger:
+
+set MAIL_SERVER=localhost
+set MAIL_PORT=8025
+python -m smtpd -n -c DebuggingServer localhost:8025

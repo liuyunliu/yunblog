@@ -4,3 +4,9 @@ werkzeug
 flask_wtf
 flask-sqlalchemy
 flask_login
+flask-mail
+pyjwt
+flask-bootstrap
+flask-moment
+flask-babel
+guess_language-spirit
