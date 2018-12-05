@@ -32,3 +32,6 @@ email debugger:
 set MAIL_SERVER=localhost
 set MAIL_PORT=8025
 python -m smtpd -n -c DebuggingServer localhost:8025
+
+
+set MS_TRANSLATOR_KEY=3e70201ea922478b9abd4ba1d3eba714
